@@ -1,0 +1,15 @@
+2017-10-11 11:13:48,212:INFO:STDOUT:call child 1 begin ...
+in child 1
+===================
+child_child 2.py
+
+===================
+===================
+Traceback (most recent call last):
+  File "child_child2.py", line 14, in <module>
+    assert False, "child_child 2.py"
+AssertionError: child_child 2.py
+
+===================
+in child call child_child 2 end
+2017-10-11 11:13:48,232:INFO:STDOUT:call child 1 end.
